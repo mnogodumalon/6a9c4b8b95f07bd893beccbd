@@ -1,0 +1,65 @@
+{
+  "MitgliederDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "mitgliedsnummer": "z. B. M-2024-001",
+    "geburtsdatum": "Wann wurde das Mitglied geboren?",
+    "email": "z. B. max@example.de",
+    "telefon": "z. B. +49 123 456789",
+    "eintrittsdatum": "Wann tritt das Mitglied ein?",
+    "status": "Wähle den aktuellen Status",
+    "rollen": "Welche Rollen im Verein?",
+    "notizen_mitglied": "Besonderheiten, Fähigkeiten, Anmerkungen..."
+  },
+  "BooteDialog.tsx": {
+    "name": "z. B. Aurora",
+    "bootstyp": "Wähle den Bootstyp",
+    "max_ruderer": "Maximale Anzahl Ruderer",
+    "steuermann_erforderlich": "Ist ein Steuermann erforderlich?",
+    "baujahr": "z. B. 2018",
+    "hersteller": "z. B. Empacher",
+    "zustand": "Wie ist der aktuelle Zustand?",
+    "boot_status": "Wähle den Status",
+    "lagerplatz": "z. B. Ständer A-3",
+    "notizen_boot": "Wartung, Besonderheiten, Reparaturbedarf..."
+  },
+  "LogbuchDialog.tsx": {
+    "boot": "Welches Boot wird genutzt?",
+    "startzeit": "Wann startet die Ausfahrt?",
+    "zweck": "Wähle den Zweck der Ausfahrt",
+    "ruderer": "Wer rudern mit?",
+    "steuermann": "Wer steuert das Boot?",
+    "gastruderer_anzahl": "z. B. 2",
+    "gastruderer_namen": "Ein Name pro Zeile",
+    "endzeit": "Wann endet die Ausfahrt?",
+    "strecke_km": "z. B. 12,5",
+    "veranstaltungsort": "z. B. Elbe, Hamburg",
+    "schaden_gemeldet": "Wurde ein Schaden festgestellt?",
+    "allgemeine_notizen": "Besonderheiten, Wetter, Beobachtungen..."
+  },
+  "SchadensmeldungenDialog.tsx": {
+    "ausfahrt": "Zu welcher Ausfahrt gehört die Meldung?",
+    "meldungstyp": "Wähle die Art der Meldung",
+    "titel": "z. B. Riss im Rumpf",
+    "beschreibung": "Wo genau? Wie schwer? Was ist passiert?",
+    "schweregrad": "Wie schwerwiegend ist der Schaden?",
+    "status_meldung": "Wähle den Status",
+    "erledigt_am": "Wann war die Reparatur fertig?",
+    "bootswart_notiz": "Reparaturmaßnahmen, Ersatzteile, Aufwand..."
+  },
+  "VereinskonfigurationDialog.tsx": {
+    "vereinsname": "z. B. Ruderverein Elbtal",
+    "vereinskuerzel": "z. B. RVE",
+    "gruendungsjahr": "z. B. 1985",
+    "vereinswebsite": "z. B. www.ruderverein-elbtal.de",
+    "vereinsemail": "z. B. info@ruderverein-elbtal.de",
+    "primaerfarbe": "z. B. #003366",
+    "sekundaerfarbe": "z. B. #FFFFFF",
+    "vereinsmotto": "z. B. Mit Kraft und Gemeinschaft",
+    "bootshaus_name": "z. B. Bootshaus Elbtal",
+    "bootshaus_adresse_strasse": "z. B. Elbweg",
+    "bootshaus_adresse_hausnummer": "z. B. 42",
+    "bootshaus_adresse_plz": "z. B. 21109",
+    "bootshaus_adresse_ort": "z. B. Hamburg"
+  }
+}

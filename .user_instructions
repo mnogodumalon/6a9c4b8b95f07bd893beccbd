@@ -1,0 +1,28 @@
+Ich brauche eine App für unseren Ruderverein. 
+Konkret ein Logbuch bzw. Fahrtenbuch. 
+Wir haben ein Bootshaus mit zahlreichen Booten, jedes davon hat einen eigenen Namen.
+Wir haben eine Liste unserer Mitglieder.
+Vor Ort wird das Logbuch über einen Laptop bedient. 
+Es soll aber auch direkt über eine App am Smartphone bedient werden können. Das hilft Ruderern, die nicht bei unserem eigenen Verein, sondern z.B. bei Regatten oder Trainingslager rudern und die Fahrten eintragen wollen.
+
+Wie läuft es ab?
+Vor der Ausfahrt trägt man ein:
+- Welches Boot?
+- Welche Ruderer? Aus der Mitglieder-Liste. Zusätzlich gibt es eine Option für Gastruderer. Anzahl der Ruderer je nach Boot. Ein Boot kann 1, 2, 3, 4, 5 oder 8 Ruderer haben. Manche Boote haben zusätzlich zu den Ruderern noch einen Steuermann.
+- Startzeit
+- Zweck der Ausfahrt, z.B. Trainingsfahrt, Regatta, Trainingslager, Wanderfahrt, etc.
+
+Wenn man zurück kommt trägt man ein:
+- Endzeit
+- Gefahrene Strecke in Kilometern
+- Optional hat man noch die Möglichkeit einen Bootsschaden zu melden oder allgemeine Notizen hinzuzufügen, falls nötig. 
+
+Es soll auch eine Möglichkeit geben, eine Statistik abzurufen. 
+Auf der Startseite soll es auch ein Dashboard geben, auf dem die wichtigsten Kennzahlen auf einen Blick zu sehen sind und von wo aus man direkt zu der gesamten Statistik für diese Kennzahl kommt. z.B. Ruderer nach Kilometerleistung (allgemein für diese Jahr, mit der Möglichkeit nach Jahren oder bestimmten Zeitspannen zu filtern), dasselbe für Boote. Man kann auch die eigene Statistik aufrufen: Wie viele Kilometer bin ich gerudert? Mit welchen Booten? Mit wem? (alleine, mit anderen). Die Statistiken sollen nicht nur als Zahlen, sondern auch visuell dargestellt werden. 
+Es soll auch eine Liste geben, die gemeldete Schäden und oder Notizen zeigt. Mit Links zu den einzelnen Einträgen und den wichtigsten Infos, von welcher Ausfahrt und wem die Meldung stammt. Der Bootswart soll die Meldungen als erledigt markieren können.
+
+Es soll eine Funktion für Admins geben. Der Admin kann neue Ruderer und Boote hinzufügen oder Anpassen können. Außerdem Einträge hinzufügen, bearbeiten oder löschen können.
+
+Die App loggt alle Änderungen, von normalen Nutzern und Admins. 
+
+Es soll möglich sein, das Design der App zu konfigurieren. Sodass es an das Design des Vereins angepasst ist, z.B. mit Logo und Farbe. Schriftart muss aber z.B. nicht konfigurierbar sein.

@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Mitglieder": {
+      "placeholders_set": 10,
+      "defaults_keys": ["status", "eintrittsdatum"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten für Vereinsmitglieder — keine Preis-, Mengen- oder Dauer-Beziehungen vorhanden"
+    },
+    "Boote": {
+      "placeholders_set": 10,
+      "defaults_keys": ["boot_status", "steuermann_erforderlich"],
+      "computed_keys": [],
+      "reason": "Ressourcen-Stammdaten — Baujahr ist isolierter Kontext, keine arithmetischen Beziehungen"
+    },
+    "Logbuch": {
+      "placeholders_set": 11,
+      "defaults_keys": ["startzeit", "zweck", "gastruderer_anzahl", "schaden_gemeldet"],
+      "computed_keys": ["_logbuch_fahrzeit_stunden"],
+      "reason": "Dauer-Paar (startzeit + endzeit mit datetimeminute) → Fahrzeit-Berechnung in Stunden als virtuelle Anzeige"
+    },
+    "Schadensmeldungen": {
+      "placeholders_set": 8,
+      "defaults_keys": ["meldungstyp", "status_meldung"],
+      "computed_keys": [],
+      "reason": "Status- und Notiz-Verwaltung — keine arithmetischen Beziehungen oder Dauer-Paare"
+    },
+    "Vereinskonfiguration": {
+      "placeholders_set": 13,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Konfiguration und Stammdaten — keine berechenbaren Größen, reine Admin-Eingaben"
+    }
+  }
+}
