@@ -20,6 +20,7 @@
 import type { ComponentType } from 'react';
 
 // <custom:intent-imports>
+import { IconKayak, IconFlagCheck } from '@tabler/icons-react';
 // </custom:intent-imports>
 
 export interface IntentLink {
@@ -42,6 +43,8 @@ export interface IntentLink {
 
 export const INTENTS: IntentLink[] = [
   // <custom:intents>
+  { path: '/intents/ausfahrt-starten', label: { de: 'Ausfahrt starten', en: 'Start outing' }, icon: IconKayak, description: 'Neue Ausfahrt eintragen: Boot wählen, Ruderer auswählen, Startzeit bestätigen' },
+  { path: '/intents/ausfahrt-beenden', label: { de: 'Ausfahrt beenden', en: 'End outing' }, icon: IconFlagCheck, description: 'Laufende Ausfahrt abschliessen: Endzeit, Strecke und optionalen Schaden eintragen' },
   // </custom:intents>
 ];
 
@@ -52,4 +55,4 @@ export const INTENTS: IntentLink[] = [
  * purpose — a scaffold update resets it to false (self-healing if Phase 2
  * never ran).
  */
-export const INTENTS_PENDING = true;
+export const INTENTS_PENDING = false;

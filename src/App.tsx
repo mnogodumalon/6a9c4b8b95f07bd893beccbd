@@ -20,6 +20,8 @@ import SchadensmeldungenDetailPage from '@/pages/SchadensmeldungenDetailPage';
 import VereinskonfigurationPage from '@/pages/VereinskonfigurationPage';
 import VereinskonfigurationDetailPage from '@/pages/VereinskonfigurationDetailPage';
 // <custom:imports>
+const IntentAusfahrtStartenPage = lazy(() => import('@/pages/intents/AusfahrtStartenPage'));
+const IntentAusfahrtBeendenPage = lazy(() => import('@/pages/intents/AusfahrtBeendenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -86,6 +88,8 @@ export default function App() {
                 <Route path="admin" element={<AdminPage />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/ausfahrt-starten" element={<Suspense fallback={null}><IntentAusfahrtStartenPage /></Suspense>} />
+                <Route path="intents/ausfahrt-beenden" element={<Suspense fallback={null}><IntentAusfahrtBeendenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
